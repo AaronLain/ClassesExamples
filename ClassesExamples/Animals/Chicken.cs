@@ -16,7 +16,7 @@ namespace ClassesExamples.Animals
         public Chicken(string name)
         {
             Name = name;
-            Console.WriteLine($"{name} is instantiated!");
+            Console.WriteLine($"{name} is instantiated! \r\n");
         }
 
         //method
@@ -25,12 +25,12 @@ namespace ClassesExamples.Animals
             
             if (_isHungry)
             {
-                Console.WriteLine($"{Name} pecked hungrily at the {typeOfFood}");
+                Console.WriteLine($"{Name} pecked hungrily at the {typeOfFood} \r\n");
                 _isHungry = false;
             }
             else
             {
-                Console.WriteLine($"{Name} is full!");
+                Console.WriteLine($"{Name} is full! \r\n");
             }
         }
     }
