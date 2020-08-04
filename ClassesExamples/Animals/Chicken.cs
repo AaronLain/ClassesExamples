@@ -6,7 +6,7 @@ namespace ClassesExamples.Animals
 {
     class Chicken
     {
-        //property -- order is idiomatic C#
+        //property -- is capitalized, order below is idiomatic C#
         public string Name { get; set; }
 
         //field -- naming convention has _ then camel case 
