@@ -8,15 +8,15 @@ namespace ClassesExamples // encapsulates an 'idea' of code. Follows folder stru
     {
         static void Main(string[] args)
         {
-            var chicken = new Chicken("Buttpecker");
+            var chicken = new Chicken("Andy");
             var bob = new Chicken("Bob");
 
             // _isHungry is true
-            chicken.Peck("butts"); 
+            chicken.Peck("acorns or w/e"); 
             bob.Peck("worms");
 
             // _isHungry is now false
-            chicken.Peck("butts"); 
+            chicken.Peck("acorns or w/e"); 
             bob.Peck("worms");
 
         }
